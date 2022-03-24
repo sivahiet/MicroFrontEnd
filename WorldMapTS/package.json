@@ -1,0 +1,23 @@
+{
+  "name": "worldmapts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc && webpack --config config/webpack.prod.js",
+    "start": "npm run build && webpack serve --config config/webpack.dev.js"
+  },
+  "author": "sivakumar",
+  "license": "ISC",
+  "devDependencies": {
+    "html-webpack-plugin": "^4.5.0",
+    "nodemon": "^2.0.6",
+    "typescript": "^4.6.2",
+    "webpack": "^5.3.2",
+    "webpack-cli": "^4.1.0",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "dependencies": {
+    "@syncfusion/ej2-maps": "^19.4.56"
+  }
+}
